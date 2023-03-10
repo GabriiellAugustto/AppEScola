@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Login_Activity">
+    tools:context=".Login_Activity"
+    android:background="#8CBCCF">
 
     <ImageView
         android:layout_width="150dp"
@@ -18,6 +19,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
         android:hint="Insira seu Email"
         android:inputType="textEmailAddress"
         android:maxLength="50"
@@ -26,6 +29,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
         android:hint="Insira a Senha"
         android:inputType="textPassword"
         android:maxLength="30"
